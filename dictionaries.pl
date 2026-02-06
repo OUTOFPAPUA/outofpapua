@@ -6545,7 +6545,7 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975c)' => { #try again
+  'Mills (1975c)' => {
     lang_target => 'bug',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
@@ -6563,8 +6563,8 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975d)' => { #create variety
-    lang_target => 'Buginese Sidenreng',
+  'Mills (1975d)' => {
+    lang_target => 'Bugis Sidenreng',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Bug-Sid',
