@@ -6546,7 +6546,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975c)' => { #try again
-    lang_target => 'Bug',
+    lang_target => 'bug',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Bug',
