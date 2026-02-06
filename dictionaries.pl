@@ -6529,27 +6529,24 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975b)' => { #change apostrophe!
-    lang_target => 'Proto Sa`dan',
+  'Mills (1975b)' => { #try again
+    lang_target => 'Proto Sa`dan', #change apostrophe!
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'PSad',
     columns => [
       [0, 'headword'], 
-      [1, 'va'],
-      [2, 'gloss', 'eng'],
-      [3, 'sc'],
-      [4, 'gloss', 'ind'],
-      [8, 'cf'],
-      [9, 'nt'],
-      [10, 'nt', 'compare:'],
-      [11, 'et'],
-      [12, 'page_num'],
+      [1, 'gloss', 'eng'],
+      [5, 'cf'],
+      [6, 'nt'],
+      [7, 'nt', 'compare:'],
+      [8, 'et'],
+      [9, 'page_num'],
     ],
     strip => 'to',
   },
-  'Mills (1975c)' => { 
-    lang_target => 'Buginese',
+  'Mills (1975c)' => { #try again
+    lang_target => 'Bug',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Bug',
@@ -6566,7 +6563,7 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975d)' => { 
+  'Mills (1975d)' => { #create variety
     lang_target => 'Buginese Sidenreng',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
@@ -6785,7 +6782,7 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975p)' => { #change apostrophe!
+  'Mills (1975p)' => { 
     lang_target => 'sda', #Sa`dan Toraja
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
@@ -6823,7 +6820,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975r)' => {
-    lang_target => 'rob', #Rongkong
+    lang_target => 'rob', #adapt variety
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Sad-Rongkong',
@@ -6966,8 +6963,8 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975z)' => { 
-    lang_target => 'Pitu Ulunna Salu',
+  'Mills (1975z)' => { #not ingested
+    lang_target => 'Pitu Ulunna Salu', #family, no ISO-code
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'PUS',
@@ -6984,7 +6981,7 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975aa)' => { 
+  'Mills (1975aa)' => { #not ingested
     lang_target => 'Seko', #no ISO code
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
@@ -7003,7 +7000,7 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975ab)' => { 
+  'Mills (1975ab)' => { #not ingested
     lang_target => 'Seko Lemo', #create
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
