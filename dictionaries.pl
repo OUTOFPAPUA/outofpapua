@@ -551,6 +551,12 @@ our $dict = {
     mode => 'sense_per_row',
     strip => 'to',
   },
+  'Balukh (2025)' => {
+    lang_target => 'bvt',
+    path => 'Balukh_2025_Bati.db',
+    parser => 'Marker',
+    strip => 'to',
+  },
   'Banamtuan (2021)' => {
     lang_target => 'kyo',
     path => 'Banamtuan 2021 - Klon Bring.xlsx',
