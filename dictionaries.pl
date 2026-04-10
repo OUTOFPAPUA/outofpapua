@@ -556,6 +556,7 @@ our $dict = {
     path => 'Balukh_2025_Bati.db',
     parser => 'Marker',
     strip => 'to',
+    skip => 'lx_Bat',
   },
   'Banamtuan (2021)' => {
     lang_target => 'kyo',
