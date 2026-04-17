@@ -14449,6 +14449,22 @@ our $dict = {
     split => ';',
     strip => 'to',
   },
+  'Takahashi (2026)' => {
+    lang_target => 'Kesui',
+    path => 'Takahashi_2026_Kesui.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'ind'],
+      [2, 'gloss', 'abs'],
+      [3, 'gloss', 'jap'],
+      [4, 'sc'],
+      [5, 'gloss', 'eng'],
+      [6, 'pl'],
+      [7, 'nt'],
+    ],
+    mode => 'sense_per_row',
+  },
   'Tamelan (2021)' => {
     lang_target => 'row',
     path => 'Tamelan 2021 Dela.xlsx',
