@@ -3941,6 +3941,16 @@ our $dict = {
     split => ',/',
     strip => 'to',
   },
+  'Gasser (2016g)' => {
+    lang_target => 'Kuri',
+    path => 'Gasser_2016_Kuri.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [2, 'headword'],
+      [0, 'gloss', 'eng'],
+      [1, 'gloss', 'ind'],
+    ],
+  },
   'Gasser (2019a)' => {
     lang_target => 'wad',
     path => 'Wamesa_all.db',
