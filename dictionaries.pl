@@ -9911,6 +9911,12 @@ our $dict = {
       [[6 .. 7], 'example', ['ind']],
     ],
   },
+  'Schapper (2026)' => {
+    lang_target => 'Maybrat Aytinyo',
+    path => 'Schapper_2026_Aitinyo.txt',
+    parser => 'Marker',
+    lang_national => 'ind',
+  },
   'Schapper (nd)' => {
     lang_target => 'nec',
     path => 'Schapper_nd_Nedebang.txt',
