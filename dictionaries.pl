@@ -1129,7 +1129,7 @@ our $dict = {
     definition_action => 'merge',
     strip => 'to',
   },
-  'Bracks & Edwards (forthcoming a)' => {
+  'Bracks & Edwards (2026a)' => {
     lang_target => 'Rasua', 
     path => 'BracksEdwardsfc_Ataúro.xlsx',
     parser => 'Spreadsheet',
@@ -1138,7 +1138,7 @@ our $dict = {
       [0, 'gloss', 'eng'],
     ],
   },
-  'Bracks & Edwards (forthcoming b)' => {
+  'Bracks & Edwards (2026b)' => {
     lang_target => 'Raklungu', 
     path => 'BracksEdwardsfc_Ataúro.xlsx',
     parser => 'Spreadsheet',
@@ -1147,7 +1147,7 @@ our $dict = {
       [0, 'gloss', 'eng'],
     ],
   },
-  'Bracks & Edwards (forthcoming c)' => {
+  'Bracks & Edwards (2026c)' => {
     lang_target => 'Hresuk', 
     path => 'BracksEdwardsfc_Ataúro.xlsx',
     parser => 'Spreadsheet',
