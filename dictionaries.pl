@@ -17483,7 +17483,7 @@ our $dict = {
     columns => [
       [1, 'headword'],
       [0, 'sc'],
-      [4, 'nt', 'Genus:'],
+      [4, 'nt', 'Family:'],
       [5, 'nt'],
       [6, 'gloss', 'eng'],
       [7, 'gloss', 'ind'],
@@ -17496,7 +17496,7 @@ our $dict = {
     columns => [
       [2, 'headword'],
       [0, 'sc'],
-      [4, 'nt', 'Genus:'],
+      [4, 'nt', 'Family:'],
       [5, 'nt'],
       [6, 'gloss', 'eng'],
       [7, 'gloss', 'ind'],
@@ -17509,7 +17509,7 @@ our $dict = {
     columns => [
       [3, 'headword'],
       [0, 'sc'],
-      [4, 'nt', 'Genus:'],
+      [4, 'nt', 'Family:'],
       [5, 'nt'],
       [6, 'gloss', 'eng'],
       [7, 'gloss', 'ind'],
