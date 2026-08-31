@@ -9781,18 +9781,6 @@ our $dict = {
       [6, 'page_num'],
     ],
   },
-  'Schapper (2015)' => {
-    lang_target => 'Adang Otvai',
-    path => 'Schapper_2015_AdangOtvai.xlsx',
-    parser => 'Spreadsheet',
-    columns => [
-      [0, 'headword'],
-      [2, 'gloss', 'eng'],
-      [1, 'gloss', 'ind'],
-      [3, 'lt'],
-      [4, 'sc'],
-    ],
-  },
   'Williams (nd)' => {
     lang_target => 'tpg', #Kula
     path => 'Schapper_2019_Alor-Pantar sheets.xlsx',
@@ -9814,6 +9802,18 @@ our $dict = {
       [3, 'gloss', 'ind'],
       [1, 'ph'],
       [4, 'nt'],
+    ],
+  },
+  'Schapper (2015)' => {
+    lang_target => 'Adang Otvai',
+    path => 'Schapper_2015_AdangOtvai.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [2, 'gloss', 'eng'],
+      [1, 'gloss', 'ind'],
+      [3, 'lt'],
+      [4, 'sc'],
     ],
   },
   'Schapper (2019a)' => {
@@ -9911,11 +9911,23 @@ our $dict = {
       [[6 .. 7], 'example', ['ind']],
     ],
   },
-  'Schapper (2026)' => {
+  'Schapper (2026a)' => {
     lang_target => 'Maybrat Aytinyo',
     path => 'Schapper_2026_Aitinyo.txt',
     parser => 'Marker',
     lang_national => 'ind',
+  },
+  'Schapper (2026b)' => {
+    lang_target => 'Maybrat Ayata',
+    path => 'Schapper_2026_MaybratAyata.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+      [3, 'nt'],
+      [[4 .. 5], 'example', ['eng']],
+    ],
   },
   'Schapper (nd)' => {
     lang_target => 'nec',
