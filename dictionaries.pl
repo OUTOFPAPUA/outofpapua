@@ -507,6 +507,17 @@ our $dict = {
       [6, 'page_num'],
     ],
   },
+  'Avé (1998)' => {
+    lang_target => 'Maybrat Ayawasi',
+    path => 'Avé_1998_MaybratAyawasi',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+      [2, 'sc'],
+      [3, 'page_num'],
+    ],
+  },
   'Baird (2003)' => {
     lang_target => 'Kafoa',
     path => 'Baird_2003_Kafoa.txt',
