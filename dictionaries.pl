@@ -6119,6 +6119,28 @@ our $dict = {
       [3, 'sc'],
     ],
   },
+  'Luitjes (1960a)' => {
+    lang_target => 'Mpur',
+    path => 'Luitjes_1960_MpurMeyah.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Mpur',
+    columns => [
+      [0, 'headword'],
+      [1, 'sc'],
+      [2, 'page_num'],
+    ],
+  },
+  'Luitjes (1960b)' => {
+    lang_target => 'Meyah',
+    path => 'Luitjes_1960_MpurMeyah.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Meyah',
+    columns => [
+      [0, 'headword'],
+      [1, 'sc'],
+      [2, 'page_num'],
+    ],
+  },
   'Lunow (nd)' => {
     lang_target => 'mnx',
     path => 'spreadsheets/Lunow_Sougb_list_Version2.xlsx',
