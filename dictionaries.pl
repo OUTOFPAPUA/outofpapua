@@ -509,7 +509,7 @@ our $dict = {
   },
   'Avé (1998)' => {
     lang_target => 'Maybrat Ayawasi',
-    path => 'Avé_1998_MaybratAyawasi',
+    path => 'Avé_1998_MaybratAyawasi.xlsx',
     parser => 'Spreadsheet',
     columns => [
       [0, 'headword'],
