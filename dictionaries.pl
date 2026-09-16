@@ -109,7 +109,7 @@ our $dict = {
     path => 'Ali_2024_MaybratAyata.xlsx',
     parser => 'Spreadsheet',
     columns => [
-      [1, 'subentry']
+      [1, 'subentry'],
       [0, 'headword'],
       [2, 'ps'],
       [3, 'gloss', 'ind'],
