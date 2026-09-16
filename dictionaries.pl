@@ -104,6 +104,22 @@ our $dict = {
     mode => 'sense_per_row',
     strip => 'to',
   },
+  'Ali et al. (2024)' => {
+    lang_target => 'Maybrat Ayata',
+    path => 'Ali_2024_MaybratAyata.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [1, 'subentry']
+      [0, 'headword'],
+      [2, 'ps'],
+      [3, 'gloss', 'ind'],
+      [4, 'gloss', 'eng'],
+      [[5 .. 6], 'example', ['ind']], #1
+      [[7 .. 8], 'example', ['ind']], #2
+      [[9 .. 10], 'example', ['ind']], #3
+      [11, 'page_num'],
+    ],
+  },
   'Anakotta (2024)' => {
     lang_target => 'Moi Kilim',
     path => 'Anakotta_2024_MoiKilim.txt',
