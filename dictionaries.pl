@@ -109,16 +109,16 @@ our $dict = {
     path => 'Ali_2024_MaybratAyata.xlsx',
     parser => 'Spreadsheet',
     columns => [
-      [1, 'subentry'],
       [0, 'headword'],
-      [2, 'ps'],
-      [3, 'gloss', 'ind'],
-      [4, 'gloss', 'eng'],
-      [[5 .. 6], 'example', ['ind']], #1
-      [[7 .. 8], 'example', ['ind']], #2
-      [[9 .. 10], 'example', ['ind']], #3
-      [11, 'page_num'],
+      [1, 'ps'],
+      [2, 'gloss', 'ind'],
+      [3, 'gloss', 'eng'],
+      [[4 .. 5], 'example', ['ind']], #1
+      [[6 .. 7], 'example', ['ind']], #2
+      [[8 .. 9], 'example', ['ind']], #3
+      [10, 'page_num'],
     ],
+    mode => 'sense_per_row',
   },
   'Anakotta (2024)' => {
     lang_target => 'Moi Kilim',
