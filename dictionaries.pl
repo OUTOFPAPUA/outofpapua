@@ -1523,6 +1523,51 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
+  'Capell (nd a)' => {
+    lang_target => 'Gwini', 
+    path => 'Capell_nd_Gwini_Gunabalang.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Gwini',
+    columns => [
+      [0, 'headword'],
+      [1, 'ps'],
+      [2, 'pd'],
+      [3, 'gloss', 'eng'],
+      [4, 'nt'],
+      [5, 'sy'],
+      [6, 'an'],
+      [7, 'pl'],
+      [8, '3s'],
+      [9, 'cf'],
+      [[10 .. 11], 'example', ['eng']], #1
+      [[12 .. 13], 'example', ['eng']], #2
+      [14, 'page_num'],
+    ],
+    strip => 'to',
+    mode => 'sense_per_row',
+  },
+  'Capell (nd b)' => {
+    lang_target => 'Gunabalang', 
+    path => 'Capell_nd_Gwini_Gunabalang.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Gunabalang',
+    columns => [
+      [0, 'headword'],
+      [1, 'pd'],
+      [2, 'gloss', 'eng'],
+      [[3 .. 4], 'example', ['eng']], #1
+      [[5 .. 6], 'example', ['eng']], #2
+      [[7 .. 8], 'example', ['eng']], #3
+      [9, 'pl'],
+      [10, 'red'],
+      [11, 'cf'],
+      [12, 'cfe'],
+      [13, 'nt'],
+      [14, 'page_num'],
+    ],
+    strip => 'to',
+    mode => 'sense_per_row',
+  },
   'Carr (2004)' => {
     lang_target => 'mkz', 
     path => 'Carr2004_MakasaeOssu.xlsx',
