@@ -3359,7 +3359,7 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Evans (2016)' => {
-    lang_target => 'mxv',
+    lang_target => 'mxw',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Namo-Evans', 
@@ -4726,8 +4726,8 @@ our $dict = {
     lang_national => 'ind',
   },
   'Holmström (nd)' => { #######
-    lang_target => 'Pagu Isam',
-    path => 'spreadsheets/Hueting 1908 - Isam, Tololiku.xlsx',
+    lang_target => 'Bedoanas',
+    path => 'Holmström_nd_Bedoanas.xlsx',
     parser => 'Spreadsheet',
     columns => [
       [4, 'headword'],
