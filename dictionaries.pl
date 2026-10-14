@@ -3358,7 +3358,7 @@ our $dict = {
     strip => 'to',
     mode => 'sense_per_row',
   },
-  'Evans (2016a)' => {
+  'Evans (2016)' => {
     lang_target => 'mxv',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -4724,6 +4724,20 @@ our $dict = {
     split => ';',
     strip => 'to',
     lang_national => 'ind',
+  },
+  'Holmström (nd)' => { #######
+    lang_target => 'Pagu Isam',
+    path => 'spreadsheets/Hueting 1908 - Isam, Tololiku.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [4, 'headword'],
+      [1, 'gloss', 'nld'],
+      [2, 'gloss', 'eng'],
+      [3, 'sc'],
+      [5, 'nt'],
+      [0, 'nt', 'number:'],
+    ],
+    strip => 'to',
   },
   'Holton & Lamma Koly (2008)' => {
     lang_target => 'lev',
