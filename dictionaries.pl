@@ -4730,14 +4730,12 @@ our $dict = {
     path => 'Holmström_nd_Bedoanas.xlsx',
     parser => 'Spreadsheet',
     columns => [
-      [4, 'headword'],
-      [1, 'gloss', 'nld'],
-      [2, 'gloss', 'eng'],
-      [3, 'sc'],
-      [5, 'nt'],
-      [0, 'nt', 'number:'],
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+      [2, 'gloss', 'ind'],
+      [3, 'lt'],
+      [4, 'nt'],
     ],
-    strip => 'to',
   },
   'Holton & Lamma Koly (2008)' => {
     lang_target => 'lev',
@@ -9389,7 +9387,7 @@ our $dict = {
     strip => 'to',
   },
   'Quinn (2016)' => {
-    lang_target => 'Wartha Thuntai',
+    lang_target => 'gnt',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Warta-Quinn', 
