@@ -10001,6 +10001,16 @@ our $dict = {
     definition_action => 'merge',
     skip_marker => ['rr', 're', 'rn'],
   },
+  'Schokkin (2016)' => {
+    lang_target => 'Agob',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [0, 'ph'],
+      [1, 'gloss', 'ind'],
+    ],
+  },
   'Sentani' => { #not ingested
     lang_target => 'set',
     path => 'Colexification_tool/Sentani dictionary.xlsx',
