@@ -1524,7 +1524,7 @@ our $dict = {
     ],
   },
   'Capell (nd a)' => {
-    lang_target => 'Gwini', 
+    lang_target => 'gww', 
     path => 'Capell_nd_Gwini_Gunabalang.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Gwini',
@@ -1547,7 +1547,7 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Capell (nd b)' => {
-    lang_target => 'Gunabalang', 
+    lang_target => 'wlg', 
     path => 'Capell_nd_Gwini_Gunabalang.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Gunabalang',
