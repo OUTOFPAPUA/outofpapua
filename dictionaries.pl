@@ -2399,7 +2399,7 @@ our $dict = {
     path => 'Döhler_nd_Bine.txt',
     parser => 'Marker',
   },
-  'Döhler (nd b)' => { %unclear language assignment, not ingested
+  'Döhler (nd b)' => { #unclear language assignment, not ingested
     lang_target => 'Ränmo',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -2430,7 +2430,7 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
-  'Döhler (2016c)' => { %not ingested
+  'Döhler (2016c)' => { #not ingested
     lang_target => 'Kémä',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -4831,7 +4831,7 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
-  'Thiessen (2012c)' => { %language assignment unclear, not ingested
+  'Thiessen (2012c)' => { #language assignment unclear, not ingested
     lang_target => 'Ränmo',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -5941,7 +5941,7 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
-  'Lindsey (2016c)' => { %language assignment unclear, not ingested
+  'Lindsey (2016c)' => { #language assignment unclear, not ingested
     lang_target => 'Täme',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -10001,7 +10001,7 @@ our $dict = {
     ],
     split => ';',
   },
-  'Sarsa (2001)' => { %not ingested
+  'Sarsa (2001)' => { #not ingested
     lang_target => 'tci',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -10010,7 +10010,7 @@ our $dict = {
       [0, 'headword'],
       [1, 'ph'],
       [2, 'ps'],
-      [3, ], %"gender"
+      [3, ], #"gender"
       [4, 'gloss', 'eng'],
     ],
   },
