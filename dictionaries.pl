@@ -6729,6 +6729,11 @@ our $dict = {
     path => 'Milano_2025_Arguni.txt',
     parser => 'Marker',
   },
+  'Milano (nd)' => {
+    lang_target => 'Arguni',
+    path => 'Milano_nd_Arguni.db',
+    parser => 'Marker',
+  },
   'Mills (1975a)' => { 
     lang_target => 'Proto-South Sulawesi',
     path => 'Mills_1975_SouthSulawesi.xlsx',
