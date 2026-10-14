@@ -10310,6 +10310,96 @@ our $dict = {
       [[6 .. 8], 'example', ['eng', 'ind']],
     ],
   },
+  'Smallhorn (2011a)' => {
+    lang_target => 'Proto-Binandere',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Binandere',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011b)' => {
+    lang_target => 'Proto-Zia-Mawae',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Zia-Mawae',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011c)' => {
+    lang_target => 'Proto-Gaena-Korafe',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Gaena-Korafe',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011d)' => {
+    lang_target => 'Proto-North Binandere',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-North Binandere',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011e)' => {
+    lang_target => 'Proto-Nuclear Binandere',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Nuclear Binandere',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011f)' => {
+    lang_target => 'Proto-Baruga',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Baruga',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011g)' => {
+    lang_target => 'Proto-Orokaiva',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Orokaiva',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011h)' => {
+    lang_target => 'Proto-South Binandere',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-South Binandere',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Smallhorn (2011i)' => {
+    lang_target => 'Proto-Coastal Binandere',
+    path => 'Smallhorn_2011.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-Coastal Binandere',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
   'Smits & Voorhoeve (1992 Uruangnirin a)' => {
     lang_target => 'Uruangnirin Tubiruasa',
     path => 'SmitsVoorhoeve_1992.xlsx',
