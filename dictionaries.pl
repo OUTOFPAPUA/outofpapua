@@ -2394,10 +2394,61 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Döhler (nd)' => {
+  'Döhler (nd a)' => {
     lang_target => 'bon',
     path => 'Döhler_nd_Bine.txt',
     parser => 'Marker',
+  },
+  'Döhler (nd b)' => { %unclear language assignment, not ingested
+    lang_target => 'Ränmo',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Ränmo-Döhler', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ps'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
+  'Döhler (2016a)' => {
+    lang_target => 'bfh',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Döhler_2016_Blafe', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Döhler (2016b)' => {
+    lang_target => 'pep',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Kánchá-Döhler', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Döhler (2016c)' => { %not ingested
+    lang_target => 'Kémä',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Kéma-Döhler', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Döhler (2016d)' => {
+    lang_target => 'Wèré',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Wèré-Döhler', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'Döhler (2022)' => {
     lang_target => 'tci',
@@ -3307,6 +3358,16 @@ our $dict = {
     strip => 'to',
     mode => 'sense_per_row',
   },
+  'Evans (2016a)' => {
+    lang_target => 'mxv',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Namo-Evans', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
   'Evans (2019)' => {
     lang_target => 'nqn',
     path => 'Evans_2019_Nen.db',
@@ -4005,6 +4066,16 @@ our $dict = {
     ],
     split => ',/',
     strip => 'to',
+  },
+  'Gast (2016)' => {
+    lang_target => 'idi',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Gast_2016_Idi', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'Geurtjens (1921)' => { 
     lang_target => 'kei',
@@ -4739,6 +4810,46 @@ our $dict = {
     path => 'Hueting_1908_TobeloTugutil.txt',
     parser => 'Marker',
     strip => ['the','to','a'],
+  },
+  'Thiessen (2012a)' => {
+    lang_target => 'bfh',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Thiessen_2012_Blafe', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Thiessen (2012b)' => {
+    lang_target => 'krz',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Ngar-Thiessen', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Thiessen (2012c)' => { %language assignment unclear, not ingested
+    lang_target => 'Ränmo',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Ränmo-Thiessen', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Thiessen (2012d)' => {
+    lang_target => 'Rema',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Rema-Thiessen', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'Hughes (1995)' => {
     lang_target => 'Dobel',
@@ -5809,6 +5920,36 @@ our $dict = {
       [[45 .. 46], 'example', ['ind']], #17
     ],
     mode => 'sense_per_row',
+  },
+  'Lindsey (2016a)' => {
+    lang_target => 'kit',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Lindsey_2016_Ende', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Lindsey (2016b)' => {
+    lang_target => 'Kawam',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Kawam-Lindsey', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
+  },
+  'Lindsey (2016c)' => { %language assignment unclear, not ingested
+    lang_target => 'Täme',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Täme-Lindsey', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'Litamahuputty (2012)' => {
     lang_target => 'max',
@@ -7101,6 +7242,27 @@ our $dict = {
       [8, 'page_num'],
     ],
     strip => 'to',
+  },
+  'Mittag (2016a)' => { 
+    lang_target => 'stk',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Mittag_2016_Aramba',
+    columns => [
+      [0, 'headword'], 
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
+  'Mittag (2016b)' => {
+    lang_target => 'Dre (Papua New Guinea)',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Mittag_2016_Dre', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'Modera (1830a)' => { 
     lang_target => 'Kamoro Utanata',
@@ -9035,6 +9197,18 @@ our $dict = {
     ],
     strip => 'to',
   },
+  'Pauw (2026)' => {
+    lang_target => 'stk',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Pauw_2016_Aramba',
+    columns => [
+      [0, 'headword'], 
+      [1, 'ph'],
+      [2, 'ps'],
+      [3, 'gloss', 'eng'],
+    ],
+  },
   'Peckham (1991a)' => {
     lang_target => 'zrs',
     path => 'Mairasi_Comparative_List.xlsx',
@@ -9199,6 +9373,17 @@ our $dict = {
     path => 'webonary/manado/*.html',
     parser => 'LexiqueHTML',
     strip => 'to',
+  },
+  'Quinn (2016)' => {
+    lang_target => 'Wartha Thuntai',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Warta-Quinn', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
   },
   'Ray (1931a)' => {
     lang_target => 'Kiwai',
@@ -9816,6 +10001,19 @@ our $dict = {
     ],
     split => ';',
   },
+  'Sarsa (2001)' => { %not ingested
+    lang_target => 'tci',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Wära-Sarsa', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'ps'],
+      [3, ], %"gender"
+      [4, 'gloss', 'eng'],
+    ],
+  },
   'Saunders (2003)' => {
     lang_target => 'Naueti Uatolari',
     path => 'Saunders_2003_NauetiUatolari.xlsx',
@@ -10005,10 +10203,10 @@ our $dict = {
     lang_target => 'Agob',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
+    sheet => 'Schokkin_2016_Agob', 
     columns => [
       [0, 'headword'],
-      [0, 'ph'],
-      [1, 'gloss', 'ind'],
+      [1, 'gloss', 'eng'],
     ],
   },
   'Sentani' => { #not ingested
@@ -10053,6 +10251,16 @@ our $dict = {
       [16, 'page_num'],
     ],
     mode => 'sense_per_row',
+  },
+  'Siegel (2016)' => {
+    lang_target => 'nkm',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Namat-Siegel', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'Sierevelt (1920)' => {
     lang_target => 'Alune',
@@ -16242,6 +16450,16 @@ our $dict = {
     path => 'Tidore2/Tidore2_toolbox.txt',
     parser => 'Marker',
     split_headword => ',',
+  },
+  'van Tongeren (2016)' => {
+    lang_target => 'Suki',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Suki-vanTongeren', 
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+    ],
   },
   'van Velzen (1995)' => {
     lang_target => 'Papuan Malay Serui',
