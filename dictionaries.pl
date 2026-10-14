@@ -2440,7 +2440,7 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
-  'Döhler (2016d)' => {
+  'Döhler (2016d)' => { #not ingested
     lang_target => 'Wèré',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -4725,7 +4725,7 @@ our $dict = {
     strip => 'to',
     lang_national => 'ind',
   },
-  'Holmström (nd)' => { #######
+  'Holmström (nd)' => {
     lang_target => 'Bedoanas',
     path => 'Holmström_nd_Bedoanas.xlsx',
     parser => 'Spreadsheet',
