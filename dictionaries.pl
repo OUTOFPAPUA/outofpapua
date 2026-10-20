@@ -3988,6 +3988,7 @@ our $dict = {
       [2, 'gloss', 'eng'],
       [3, 'page_num'],
     ],
+    strip => 'to',
   },
   'Gane (2019)' => {
     lang_target => 'loa',
@@ -4200,6 +4201,11 @@ our $dict = {
       [[26 .. 27], 'example', ['eng']],
     ],
     mode => 'sense_per_row',
+  },
+  'Glasgow & Glasgow (2010)' => {
+    lang_target => 'Burarra',
+    path => 'GlasgowGlasgow_2010_Burarra.txt',
+    parser => 'Marker',
   },
   'Gravelle (2004)' => {
     lang_target => 'mej',
