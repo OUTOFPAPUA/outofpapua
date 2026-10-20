@@ -5936,6 +5936,11 @@ our $dict = {
       [5, 'page_num'],
     ],
   },
+  'Lee (1993)' => {
+    lang_target => 'Tiwi',
+    path => 'Lee_1993_Tiwi.db',
+    parser => 'Marker',
+  },
   'Lekedee Study Group (2006a)' => {
     lang_target => 'tkd',
     path => 'LekedeeStudyGroup_2006_TokodedeDialects.xlsx',
