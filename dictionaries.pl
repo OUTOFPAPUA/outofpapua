@@ -2444,7 +2444,7 @@ our $dict = {
     path => 'Döhler_nd_Bine.txt',
     parser => 'Marker',
   },
-  'Döhler (nd b)' => { #unclear language assignment, not ingested
+  'Döhler (nd b)' => {
     lang_target => 'Ränmo',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
