@@ -4798,7 +4798,11 @@ our $dict = {
     definition_action => 'merge',
     skip_marker => ['re', 'rr', 'rn'],
   },
-
+  'Hore (1990)' => {
+    lang_target => 'Nunggubuyu',
+    path => 'Hore_1990_Nunggbuyu.txt',
+    parser => 'Marker',
+  },
   'Hueting (1908a)' => {
     lang_target => 'Pagu Isam',
     path => 'spreadsheets/Hueting 1908 - Isam, Tololiku.xlsx',
