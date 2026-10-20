@@ -4202,7 +4202,7 @@ our $dict = {
     ],
     mode => 'sense_per_row',
   },
-  'Glasgow & Glasgow (2010)' => {
+  'Glasgow & Glasgow (2010)' => { #not ingested due to unknown marker
     lang_target => 'bvr',
     path => 'GlasgowGlasgow_2010_Burarra.txt',
     parser => 'Marker',
@@ -4895,6 +4895,11 @@ our $dict = {
     path => 'Hueting_1908_TobeloTugutil.txt',
     parser => 'Marker',
     strip => ['the','to','a'],
+  },
+  'Thieberger (1989)' => {
+    lang_target => 'Kariyarra',
+    path => 'Thieberger_1989_Kariyarra.txt',
+    parser => 'Marker',
   },
   'Thiessen (2012a)' => {
     lang_target => 'Blafe',
