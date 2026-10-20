@@ -10063,7 +10063,7 @@ our $dict = {
     ],
     split => ';',
   },
-  'Sarsa (2001)' => { #not ingested
+  'Sarsa (2001)' => {
     lang_target => 'tci',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -10072,7 +10072,7 @@ our $dict = {
       [0, 'headword'],
       [1, 'ph'],
       [2, 'ps'],
-      [3, ], #"gender"
+      [3, 'gn'],
       [4, 'gloss', 'eng'],
     ],
   },
