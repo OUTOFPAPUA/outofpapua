@@ -4203,7 +4203,7 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Glasgow & Glasgow (2010)' => {
-    lang_target => 'Burarra',
+    lang_target => 'bvr',
     path => 'GlasgowGlasgow_2010_Burarra.txt',
     parser => 'Marker',
   },
