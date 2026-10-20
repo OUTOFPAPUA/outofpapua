@@ -2456,7 +2456,7 @@ our $dict = {
     ],
   },
   'Döhler (2016a)' => {
-    lang_target => 'bfh',
+    lang_target => 'Blafe',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Döhler_2016_Blafe', 
@@ -2466,7 +2466,7 @@ our $dict = {
     ],
   },
   'Döhler (2016b)' => {
-    lang_target => 'pep',
+    lang_target => 'Kánchá',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Kánchá-Döhler', 
@@ -3404,7 +3404,7 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Evans (2016)' => {
-    lang_target => 'mxw',
+    lang_target => 'Namo',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Namo-Evans', 
@@ -4113,7 +4113,7 @@ our $dict = {
     strip => 'to',
   },
   'Gast (2016)' => {
-    lang_target => 'idi',
+    lang_target => 'Idi',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Gast_2016_Idi', 
@@ -4335,6 +4335,11 @@ our $dict = {
     ],
     strip => 'to',
     mode => 'sense_per_row',
+  },
+  'Handelsmann (1998)' => {
+    lang_target => 'Amurdak',
+    path => 'Handelsmann_1998_Amurdak.txt',
+    parser => 'Marker',
   },
   'van Bodegraven (nd)' => {
     lang_target => 'tof',
@@ -4793,6 +4798,7 @@ our $dict = {
     definition_action => 'merge',
     skip_marker => ['re', 'rr', 'rn'],
   },
+
   'Hueting (1908a)' => {
     lang_target => 'Pagu Isam',
     path => 'spreadsheets/Hueting 1908 - Isam, Tololiku.xlsx',
@@ -4869,7 +4875,7 @@ our $dict = {
     strip => ['the','to','a'],
   },
   'Thiessen (2012a)' => {
-    lang_target => 'bfh',
+    lang_target => 'Blafe',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Thiessen_2012_Blafe', 
@@ -7306,7 +7312,7 @@ our $dict = {
     strip => 'to',
   },
   'Mittag (2016a)' => { 
-    lang_target => 'stk',
+    lang_target => 'Arammba',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mittag_2016_Aramba',
@@ -9260,7 +9266,7 @@ our $dict = {
     strip => 'to',
   },
   'Pauw (2026)' => {
-    lang_target => 'stk',
+    lang_target => 'Arammba',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Pauw_2016_Aramba',
@@ -10263,11 +10269,21 @@ our $dict = {
   },
   'Schlossberg (2012a)' => {
     lang_target => 'Proto-Papuan Tip',
-    path => 'Southern_New_Guinea.xlsx',
+    path => 'Schlossberg_2012.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Proto-forms only', 
     columns => [
       [1, 'headword'],
+      [0, 'gloss', 'eng'],
+    ],
+  },
+  'Schlossberg (2012b)' => {
+    lang_target => 'Proto-Central Papuan',
+    path => 'Schlossberg_2012.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-forms only', 
+    columns => [
+      [2, 'headword'],
       [0, 'gloss', 'eng'],
     ],
   },
@@ -10325,7 +10341,7 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Siegel (2016)' => {
-    lang_target => 'nkm',
+    lang_target => 'Namat',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Namat-Siegel', 
