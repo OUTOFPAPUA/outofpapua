@@ -4799,7 +4799,7 @@ our $dict = {
     skip_marker => ['re', 'rr', 'rn'],
   },
   'Hore (1990)' => {
-    lang_target => 'Nunggubuyu',
+    lang_target => 'nuy',
     path => 'Hore_1990_Nunggbuyu.txt',
     parser => 'Marker',
   },
