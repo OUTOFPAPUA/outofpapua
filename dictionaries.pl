@@ -2475,7 +2475,7 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
-  'Döhler (2016c)' => { #not ingested
+  'Döhler (2016c)' => {
     lang_target => 'Kémä',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
@@ -5979,7 +5979,7 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Lindsey (2016a)' => {
-    lang_target => 'kit',
+    lang_target => 'Ende (PNG)',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Lindsey_2016_Ende', 
@@ -7317,7 +7317,7 @@ our $dict = {
     ],
   },
   'Mittag (2016b)' => {
-    lang_target => 'Dre (Papua New Guinea)',
+    lang_target => 'Dre (PNG)',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mittag_2016_Dre', 
