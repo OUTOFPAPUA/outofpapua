@@ -4821,6 +4821,18 @@ our $dict = {
     path => 'Hore_1990_Nunggbuyu.txt',
     parser => 'Marker',
   },
+  'Hosokawa (nd)' => { ####
+    lang_target => 'Yawuru',
+    path => 'Holmström_nd_Bedoanas.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [1, 'gloss', 'eng'],
+      [2, 'gloss', 'ind'],
+      [3, 'lt'],
+      [4, 'nt'],
+    ],
+  },
   'Hueting (1908a)' => {
     lang_target => 'Pagu Isam',
     path => 'spreadsheets/Hueting 1908 - Isam, Tololiku.xlsx',
@@ -10313,6 +10325,7 @@ our $dict = {
       [1, 'headword'],
       [0, 'gloss', 'eng'],
     ],
+    strip => 'to',
   },
   'Schlossberg (2012b)' => {
     lang_target => 'Proto-Central Papuan',
@@ -10323,6 +10336,7 @@ our $dict = {
       [2, 'headword'],
       [0, 'gloss', 'eng'],
     ],
+    strip => 'to',
   },
   'Schokkin (2016)' => {
     lang_target => 'Agob',
