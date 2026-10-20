@@ -3978,6 +3978,17 @@ our $dict = {
       [3, 'page_num'],
     ],
   },
+  'Galdeano (1913-2008)' => {
+    lang_target => 'Gwini',
+    path => 'Galdeano_1913-2008_Gwini.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [0, 'headword'],
+      [1, 'pd'],
+      [2, 'gloss', 'eng'],
+      [3, 'page_num'],
+    ],
+  },
   'Gane (2019)' => {
     lang_target => 'loa',
     path => 'spreadsheets/Gane2019-Loloda.xlsx',
