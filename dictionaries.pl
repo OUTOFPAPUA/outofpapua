@@ -4888,7 +4888,7 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
-  'Thiessen (2012c)' => { #language assignment unclear, not ingested
+  'Thiessen (2012c)' => {
     lang_target => 'Ränmo',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
