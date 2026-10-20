@@ -18097,7 +18097,7 @@ our $dict = {
     path => 'Zorc_nd_YolnguMartha.xlsx',
     parser => 'Spreadsheet',
     columns => [
-      [2, 'se'],
+      [2, 'subentry'],
       [0, 'headword'],
       [1, 'ps'],
       [3, 'gloss', 'eng'],
