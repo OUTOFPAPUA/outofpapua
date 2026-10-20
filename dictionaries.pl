@@ -18056,6 +18056,22 @@ our $dict = {
       [1, 'gloss', 'eng'],
     ],
   },
+  'Zorc et al. (nd)' => {
+    lang_target => 'Yolngu Martha',
+    path => 'Zorc_nd_YolnguMartha.xlsx',
+    parser => 'Spreadsheet',
+    columns => [
+      [2, 'se'],
+      [0, 'headword'],
+      [1, 'ps'],
+      [3, 'gloss', 'eng'],
+      [4, 'sc'],
+      [5, 'sy'],
+      [6, 'cf'],
+      [7, 'ue'],
+    ],
+    mode => 'sense_per_row',
+  },
 };
 
 # headword and gloss cleanup
