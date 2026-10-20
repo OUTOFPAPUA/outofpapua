@@ -10261,6 +10261,16 @@ our $dict = {
     definition_action => 'merge',
     skip_marker => ['rr', 're', 'rn'],
   },
+  'Schlossberg (2012a)' => {
+    lang_target => 'Proto-Papuan Tip',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => 'Proto-forms only', 
+    columns => [
+      [1, 'headword'],
+      [0, 'gloss', 'eng'],
+    ],
+  },
   'Schokkin (2016)' => {
     lang_target => 'Agob',
     path => 'Southern_New_Guinea.xlsx',
