@@ -6484,7 +6484,7 @@ our $dict = {
     skip_marker => 'lx_Amb',
   },
   'McKelson (1989)' => {
-    lang_target => 'Karajarri',
+    lang_target => 'gbd',
     path => 'McKelson_1989_Karajarri.txt',
     parser => 'Marker',
   },
