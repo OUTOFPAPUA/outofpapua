@@ -1684,8 +1684,7 @@ our $dict = {
     path => 'Coleman_1990-1991_Ndjébbana.txt',
     parser => 'Marker',
     skip_marker => ['d'],
-    #skip_marker => ['acl', 'aff', 'agr', 'd', 'decl', 'drw', 'drw2', 'drw3', 'drw4', 'gi', 'hyper', 'ikunb', 'loGURR', 'lokw', 'odDJ', 'odY']
-  },
+    },
   'Collins (1982a)' => {
     lang_target => 'mky',
     path => 'Collins/East-Makian_Collins1982.xlsx',
@@ -2469,7 +2468,8 @@ our $dict = {
     sheet => 'Döhler_2016_Blafe', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Döhler (2016b)' => {
@@ -2479,7 +2479,8 @@ our $dict = {
     sheet => 'Kánchá-Döhler', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Döhler (2016c)' => {
@@ -2489,7 +2490,8 @@ our $dict = {
     sheet => 'Kéma-Döhler', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Döhler (2016d)' => {
@@ -3986,7 +3988,7 @@ our $dict = {
     ],
   },
   'Galdeano (1913-2008)' => {
-    lang_target => 'Pela',
+    lang_target => 'vmi', #Pela, don't use name
     path => 'Galdeano_1913-2008_Gwini.xlsx',
     parser => 'Spreadsheet',
     columns => [
@@ -4138,7 +4140,8 @@ our $dict = {
     sheet => 'Gast_2016_Idi', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Geurtjens (1921)' => { 
@@ -4940,7 +4943,8 @@ our $dict = {
     sheet => 'Thiessen_2012_Blafe', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Thiessen (2012b)' => {
@@ -6057,7 +6061,8 @@ our $dict = {
     sheet => 'Lindsey_2016_Ende', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Lindsey (2016b)' => {
@@ -6067,7 +6072,8 @@ our $dict = {
     sheet => 'Kawam-Lindsey', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Lindsey (2016c)' => {
@@ -7400,7 +7406,8 @@ our $dict = {
     sheet => 'Mittag_2016_Dre', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Modera (1830a)' => { 
@@ -10367,7 +10374,8 @@ our $dict = {
     sheet => 'Schokkin_2016_Agob', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Sentani' => { #not ingested
@@ -10420,7 +10428,8 @@ our $dict = {
     sheet => 'Namat-Siegel', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Sierevelt (1920)' => {
