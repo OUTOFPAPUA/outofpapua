@@ -2501,7 +2501,8 @@ our $dict = {
     sheet => 'Wèré-Döhler', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Döhler (2022)' => {
@@ -3419,7 +3420,8 @@ our $dict = {
     sheet => 'Namo-Evans', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Evans (2019)' => {
@@ -4954,7 +4956,8 @@ our $dict = {
     sheet => 'Ngar-Thiessen', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Thiessen (2012c)' => {
@@ -4964,7 +4967,8 @@ our $dict = {
     sheet => 'Ränmo-Thiessen', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Thiessen (2012d)' => {
@@ -4974,7 +4978,8 @@ our $dict = {
     sheet => 'Rema-Thiessen', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Hughes (1995)' => {
@@ -6083,7 +6088,8 @@ our $dict = {
     sheet => 'Täme-Lindsey', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Litamahuputty (2012)' => {
@@ -16628,7 +16634,8 @@ our $dict = {
     sheet => 'Suki-vanTongeren', 
     columns => [
       [0, 'headword'],
-      [1, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'van Velzen (1995)' => {
