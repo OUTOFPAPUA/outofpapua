@@ -7040,7 +7040,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975h)' => { 
-    lang_target => 'kjc', #Coastal Konjo Bantaeng
+    lang_target => 'Coastal Konjo Bantaeng',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mak-Bant',
