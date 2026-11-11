@@ -1679,6 +1679,11 @@ our $dict = {
     ],
     strip => 'to',
   },
+  'Coleman (1990-1991)' => {
+    lang_target => 'djj',
+    path => 'Coleman_1990-1991_Ndjébbana.txt',
+    parser => 'Marker',
+  },
   'Collins (1982a)' => {
     lang_target => 'mky',
     path => 'Collins/East-Makian_Collins1982.xlsx',
