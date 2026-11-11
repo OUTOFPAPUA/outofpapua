@@ -4206,7 +4206,7 @@ our $dict = {
     lang_target => 'bvr',
     path => 'GlasgowGlasgow_2010_Burarra.txt',
     parser => 'Marker',
-    skip_marker => ['gn', 'dl', 'jin-gombula'],
+    skip_marker => ['gn', 'dl', 't.', 't.v.'],
   },
   'Gravelle (2004)' => {
     lang_target => 'mej',
@@ -6865,7 +6865,7 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975b)' => { #try again
+  'Mills (1975b)' => {
     lang_target => 'Proto Sa`dan', #change apostrophe!
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
