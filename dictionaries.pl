@@ -9382,7 +9382,7 @@ our $dict = {
     lang_target => 'mrz',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
-    sheet => '#2-Olsson-Western Coastal Marind', 
+    sheet => '#2-Olsson-WesternCoastalMarind', 
     columns => [
       [0, 'headword'],
       [1, 'ph'],
