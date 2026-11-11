@@ -4211,8 +4211,8 @@ our $dict = {
     lang_target => 'bvr',
     path => 'GlasgowGlasgow_2010_Burarra.txt',
     parser => 'Marker',
-    skip_marker => ['gn', 'r', 'wdg'],
-  #dl, lg, lt, m, me, n, nn, pc, pd, q, rc, rx, sd, sp, sr, td, us, vd, vm, vp, vr
+    skip_marker => ['gn', 'r'],
+  #dl, lg, lt, m, me, n, nn, pc, pd, q, rc, rx, sd, sp, sr, td, us, vd, vm, vp, vr, wdg
   },
   'Gravelle (2004)' => {
     lang_target => 'mej',
