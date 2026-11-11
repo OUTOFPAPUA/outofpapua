@@ -5970,7 +5970,8 @@ our $dict = {
     lang_target => 'Tiwi',
     path => 'Lee_1993_Tiwi.db',
     parser => 'Marker',
-    skip_marker => ['alt', 'c1', 'c2', 'c3', 'cl', 'cm', 'co', 'com', 'ds', 'eg', 'er', 'g', 'gl', 'i', 'idgl', 'idm', 'is', 'ix', 'no', 'np', 'qed', 'qf', 'qg', 'ql', 'qm', 'qq', 'qu', 'qv', 'qy', 'r', 'rv', 's', 'sgl', 'sp', 'st', 't', 'tr', 'v', 'ver'],
+    skip_marker => ['c1', 'c2', 'c3', 'cl', 'cm', 'co', 'com', 'ds', 'eg', 'er', 'g', 'gl', 'i', 'idgl', 'idm', 'is', 'ix', 'no', 'np', 'qed', 'qf', 'qg', 'ql', 'qm', 'qq', 'qu', 'qv', 'qy', 'r', 'rv', 's', 'sgl', 'sp', 'st', 't', 'tr', 'v', 'ver'],
+    #alt
   },
   'Lekedee Study Group (2006a)' => {
     lang_target => 'tkd',
