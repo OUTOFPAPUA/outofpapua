@@ -3979,7 +3979,7 @@ our $dict = {
     ],
   },
   'Galdeano (1913-2008)' => {
-    lang_target => 'Gwini',
+    lang_target => 'Pela',
     path => 'Galdeano_1913-2008_Gwini.xlsx',
     parser => 'Spreadsheet',
     columns => [
