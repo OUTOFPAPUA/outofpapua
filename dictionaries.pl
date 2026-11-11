@@ -7010,7 +7010,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975j)' => { 
-    lang_target => 'Mandar', #Mandar Campalagiang
+    lang_target => 'Mandar Campalagiang',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mdr-Camp',
@@ -7028,7 +7028,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975k)' => { 
-    lang_target => 'Mandar', #Mandar Sendana
+    lang_target => 'Mandar Sendana',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mdr-Cend',
@@ -7046,7 +7046,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975l)' => { 
-    lang_target => 'Mandar', #Mandar Binuang
+    lang_target => 'Mandar Binuang',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mdr-Bin',
@@ -7064,7 +7064,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975m)' => { 
-    lang_target => 'Mandar', #Mandar Balanipa
+    lang_target => 'Mandar Balanipa',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mdr-Bal',
@@ -7082,7 +7082,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975n)' => { 
-    lang_target => 'Mandar', #Mandar Majene
+    lang_target => 'Mandar Majene',
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mdr-Maj',
@@ -7122,7 +7122,7 @@ our $dict = {
     lang_target => 'sda', #Sa`dan Toraja
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
-    sheet => 'Mdr',
+    sheet => 'Sad',
     columns => [
       [4, 'headword'], 
       [0, 'gloss', 'eng'],
@@ -7174,7 +7174,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975s)' => { 
-    lang_target => 'wmm', #Massenrempulu
+    lang_target => 'Massenrempulu', #wmm
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mass',
@@ -7336,8 +7336,8 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975ab)' => { #not ingested
-    lang_target => 'Seko Lemo', #create
+  'Mills (1975ab)' => { 
+    lang_target => 'Seko Padang', 
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'SekoP',
@@ -7354,8 +7354,8 @@ our $dict = {
     ],
     strip => 'to',
   },
-  'Mills (1975ac)' => { 
-    lang_target => 'Seko Padang',
+  'Mills (1975ac)' => { #not ingested
+    lang_target => 'Seko Lemo', #create
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'SekoL',
