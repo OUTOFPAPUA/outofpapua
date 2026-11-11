@@ -5970,6 +5970,7 @@ our $dict = {
     lang_target => 'Tiwi',
     path => 'Lee_1993_Tiwi.db',
     parser => 'Marker',
+    skip_marker => ['r'],
   },
   'Lekedee Study Group (2006a)' => {
     lang_target => 'tkd',
