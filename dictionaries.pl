@@ -425,6 +425,17 @@ our $dict = {
     ],
     mode => 'sense_per_row',
   },
+  'Arka (2016)' => {
+    lang_target => 'mok',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Arka-Marori', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
   'Arka et al. (2007)' => {
     lang_target => 'ror',
     path => 'Arka_2007_Rongga.xlsx',
@@ -1575,6 +1586,28 @@ our $dict = {
     columns => [
       [0, 'headword'],
       [1, 'gloss', 'eng'],
+    ],
+  },
+  'Carroll (2016a)' => {
+    lang_target => 'kcd',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Ngkolmpu-Carroll', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
+  'Carroll (2016b)' => {
+    lang_target => 'kxq',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Smerky-Carroll', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
     ],
   },
   'Carroll (2020)' => {
@@ -4136,7 +4169,7 @@ our $dict = {
     strip => 'to',
   },
   'Gast (2016)' => {
-    lang_target => 'Idi',
+    lang_target => 'idi',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Gast_2016_Idi', 
@@ -5425,6 +5458,17 @@ our $dict = {
     lang_target => 'Tehit Afsia',
     path => 'Kareth_2004_Tehit-Afsia.db',
     parser => 'Marker',
+  },
+  'Kashima (2016a)' => {
+    lang_target => 'Nambo',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Nmbo-Kashima', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
   },
   'Katubi et al. (2013)' => {
     lang_target => 'kvd',
@@ -7416,6 +7460,17 @@ our $dict = {
       [2, 'gloss', 'eng'],
     ],
   },
+  'Mittag (2016c)' => {
+    lang_target => 'Rema',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Rema-Mittag', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
   'Modera (1830a)' => { 
     lang_target => 'Kamoro Utanata',
     path => 'Modera_1830.xlsx',
@@ -9322,6 +9377,17 @@ our $dict = {
     ],
     mode => 'sense_per_row',
   },
+  'Olsson (2016)' => {
+    lang_target => 'mrz',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Olsson-Western Coastal Marind', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
   'Ottow & Croockewit (1862)' => {
     lang_target => 'Biak Dorei',
     path => 'OttowCroockewit_1862_Biak.xlsx',
@@ -10427,11 +10493,22 @@ our $dict = {
     ],
     mode => 'sense_per_row',
   },
-  'Siegel (2016)' => {
+  'Siegel (2016a)' => {
     lang_target => 'Namat',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Namat-Siegel', 
+    columns => [
+      [0, 'headword'],
+      [1, 'ph'],
+      [2, 'gloss', 'eng'],
+    ],
+  },
+  'Siegel (2016b)' => {
+    lang_target => 'Namo',
+    path => 'Southern_New_Guinea.xlsx',
+    parser => 'Spreadsheet',
+    sheet => '#2-Namo-Siegel', 
     columns => [
       [0, 'headword'],
       [1, 'ph'],
