@@ -1683,7 +1683,7 @@ our $dict = {
     lang_target => 'djj',
     path => 'Coleman_1990-1991_Ndjébbana.txt',
     parser => 'Marker',
-    skip_marker => ['acl', 'aff', 'agr', 'decl', 'drw', 'drw2', 'drw3', 'drw4', 'gi', 'hyper', 'ikunb', 'loGURR', 'lokw', 'odDJ', 'odY']
+    skip_marker => ['acl', 'aff', 'agr', 'd', 'decl', 'drw', 'drw2', 'drw3', 'drw4', 'gi', 'hyper', 'ikunb', 'loGURR', 'lokw', 'odDJ', 'odY']
   },
   'Collins (1982a)' => {
     lang_target => 'mky',
