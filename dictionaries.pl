@@ -7241,7 +7241,7 @@ our $dict = {
     strip => 'to',
   },
   'Mills (1975s)' => { 
-    lang_target => 'Massenrempulu', #wmm
+    lang_target => 'wmm', #Massenrempulu
     path => 'Mills_1975_SouthSulawesi.xlsx',
     parser => 'Spreadsheet',
     sheet => 'Mass',
