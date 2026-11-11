@@ -6028,6 +6028,7 @@ our $dict = {
     parser => 'Marker',
     skip_marker => ['g'],
     #alt, c1, c2, c3, cl, cm, co, com, ds, eg, er, gl, i, idgl, idm, is, ix, no, np, qed, qf, qg, ql, qm, qq, qu, qv, qy, r, rv, 's', 'sgl', 'sp', 'st', 't', 'tr', 'v', 'ver'
+    definition_action => 'merge',
   },
   'Lekedee Study Group (2006a)' => {
     lang_target => 'tkd',
