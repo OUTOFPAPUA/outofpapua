@@ -5460,7 +5460,7 @@ our $dict = {
     path => 'Kareth_2004_Tehit-Afsia.db',
     parser => 'Marker',
   },
-  'Kashima (2016a)' => {
+  'Kashima (2016)' => {
     lang_target => 'Nambo',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
