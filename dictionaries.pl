@@ -4254,6 +4254,7 @@ our $dict = {
     parser => 'Marker',
     skip_marker => ['gn', 'r'],
   #dl, lg, lt, m, me, n, nn, pc, pd, q, rc, rx, sd, sp, sr, td, us, vd, vm, vp, vr, wdg
+    definition_action => 'merge',
   },
   'Gravelle (2004)' => {
     lang_target => 'mej',
