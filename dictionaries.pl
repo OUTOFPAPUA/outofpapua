@@ -9379,10 +9379,10 @@ our $dict = {
     mode => 'sense_per_row',
   },
   'Olsson (2016)' => {
-    lang_target => 'mrz',
+    lang_target => 'Western Coastal Marind',
     path => 'Southern_New_Guinea.xlsx',
     parser => 'Spreadsheet',
-    sheet => '#2-Olsson-WesternCoastalMarind', 
+    sheet => '#2-Olsson-WesternCoastalMarind',
     columns => [
       [0, 'headword'],
       [1, 'ph'],
