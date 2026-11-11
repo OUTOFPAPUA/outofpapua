@@ -2490,8 +2490,9 @@ our $dict = {
     sheet => 'Ränmo-Döhler', 
     columns => [
       [0, 'headword'],
-      [1, 'ps'],
-      [2, 'gloss', 'eng'],
+      [1, 'ph'],
+      [2, 'ps'],
+      [3, 'gloss', 'eng'],
     ],
   },
   'Döhler (2016a)' => {
